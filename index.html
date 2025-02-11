@@ -17,12 +17,17 @@
     /* Styling for paragraphs */
     p {
         font-size: 18px;
-<style>
+    }
+
     /* This CSS rule sets the background color of the entire webpage to blue */
     body {
-        background-color: blue;
-    }
+        background-image: linear-gradient(red, yellow);    }
+    table,tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
 </style>
+<link rel="icon" type="image/x-icon" href="/cool.png">
 <h1>My First HTML Page</h1>
 <p>by: Hayes Benzan.</p>
 <p>Check out this interesting book: 
@@ -33,6 +38,91 @@
 
     <!-- This paragraph contains text with bold and italic formatting -->
 <strong>I am so excited</strong> to learn <em>website development</em> this semester!</p>
+<table>
+    
+    <tr>
+      <th>name of the tv show</th>
+      <th>genre</th>
+      <th>number of episodes</th>
+
+    </tr>
+    <tr>
+      <td>night agent</td>
+      <td>action</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>All American</td>
+      <td>high school</td>
+      <td>14</td>
+    </tr>
+    <tr>
+        <td>the office</td>
+        <td>comedy</td>
+        <td>60</td>
+      </tr>
+  </table>
+
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <form>
+    .
+    class name 
+    <input type="text">	
+    teacher name
+    <input type="text">	
+    .
+    </form>
+
+    <form action="/action_page.php">
+        <label for="cars">Class Name:</label>
+        <select name="cars" id="cars">
+          <option value="math">Math</option>
+          <option value="french">French</option>
+          <option value="CS">CS</option>
+          <option value="film">film</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form action="/action_page.php">
+        <label for="cars">Teacher Name:</label>
+        <select name="cars" id="cars">
+          <option value="bradford">bradford</option>
+          <option value="fuller">fuller</option>
+          <option value="mcquirk">mcquirk</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <p>Click the button to display an alert box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert(new Date());
+}
+</script>
+
+<audio controls>
+    <source src="drake.mp3" type="audio/mp3">
+    <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>Setting the Viewport</h2>
+<p>This example does not really do anything, other than showing you how to add the viewport meta element.</p>
 
 </body>
 </html>
